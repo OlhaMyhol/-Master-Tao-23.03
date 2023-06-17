@@ -1,0 +1,47 @@
+@media screen and (max-width: 991px) {
+    .container{
+       padding-left: 20px;
+        padding-right: 20px;
+    }
+    .navbar{
+        padding-top:  16px;
+        padding-bottom: 18px;
+        &-navbar-brand {
+            img{
+                max-width: 126px;
+            }
+        }
+        &-collapse {
+            display: flex;
+            flex-direction: column;
+            background-color: $bg-secondary;
+            margin: 0 -20px;
+            padding: 27px 40px;
+            transform: translate(0px, 15px);
+        }
+        &-nav {
+            padding: 37px 0 23px;
+        }
+        a {
+            padding: 0 0 11px;
+            font-size: 24px;
+            line-height: 222%;
+        }
+
+        .btn-primary{
+            margin: 0 auto 60px;
+            padding: 22px 86px;
+            width: 100%;
+            max-width: 295px;
+        }
+    }
+    .navbar-nav {
+        margin-left: 16px;
+        letter-spacing: 0;
+        white-space: nowrap;
+        justify-content: center;
+    }
+}
+
+
+
