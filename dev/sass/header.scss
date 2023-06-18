@@ -41,7 +41,7 @@
         flex-direction: column;
         align-items: center;
     }
-}
+
 
 
 .navbar-toggler {
@@ -88,8 +88,9 @@
     }
 
     &[aria-expanded="true"] {
-
         /*открыт*/
+    
+        
         .navbar-toggler-icon {
             background-color: transparent;
 
@@ -100,9 +101,10 @@
             &::before {
                 transform: translate(-14px, -11px) rotate(45deg)
             }
-        }
+        }  
     }
 }
+
 
 
 .markup {
