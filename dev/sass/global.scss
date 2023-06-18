@@ -74,6 +74,8 @@ h4,
     background-color: transparent;
     border-radius: 90px;
     line-height: 146%;
+    border: none;
+    display: flex;
     text-align: center;
     border: 1px solid #E58D35;
     &:hover,
@@ -104,6 +106,8 @@ h4,
     margin-left: 16px;
     letter-spacing: 0;
     white-space: nowrap;
+    border: none;
+    display: flex;
 }
 
 .btn-lg {

@@ -14,10 +14,10 @@
         margin: 0 auto;
         // font-size: 24px;
         flex-direction: row;
-        max-width: 647px;
+        max-width: 655px;
         width: 100%;
         justify-content: space-around;
-        padding-top: 5px;
+        padding-top: 4px;
         flex-direction: column;
         align-items: center;
 
@@ -31,9 +31,9 @@
 
     }
 
-    .btn {
+    .btn-primary {
         padding: 13px 26px;
-        margin-left: 16px;
+        margin-left: 7px;
         letter-spacing: 0;
         white-space: nowrap;
     }
