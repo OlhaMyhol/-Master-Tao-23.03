@@ -209,3 +209,35 @@ h4,
         }
     }
 }
+
+.scroll::-webkit-scrollbar {
+    margin: 5px;
+    width: 7px;
+    border-radius: 5px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    background-clip: padding-box;
+    border: 0px solid #fff;
+    border-radius: 5px;
+
+    &:hover {
+        background-color: $color-primary;
+        cursor: pointer;
+    }
+}
+
+.scroll::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+
+
+
+.slick-track {
+    display: flex;
+}
