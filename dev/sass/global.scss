@@ -6,10 +6,16 @@
     margin-left: auto;
 }
 
+ .container-xxl{
+    max-width: 1820px;
+
+ }
+
 ::selection {
     color: #fff;
     background-color: #89C249;
 }
+
 
 body {
     background-color:#282B38;; 
@@ -238,6 +244,3 @@ h4,
 
 
 
-.slick-track {
-    display: flex;
-}
