@@ -12,6 +12,8 @@
     .navbar {
         padding-top: 16px;
         padding-bottom: 18px;
+        transition: 0.3s;
+        margin-bottom: 0;
         &-brand {
    
             img {
@@ -21,30 +23,33 @@
           }
         
         &-collapse {
-            display: flex;
-            flex-direction: column;
-            background-color: $bg-secondary;
-            margin: 0 -20px;
+            text-align: center;
+            margin: 0 -20px 0;
             padding: 0 40px;
+            background-color: $bg-secondary;
+            margin-bottom: 201px;
             transform: translate(0, 15px);
         }
         &-nav {
-            padding: 37px 0 23px;
-            letter-spacing: 0;
-            white-space: nowrap;
-            justify-content: center;
-            margin-left: -6px;
-            margin-top: 2px
+            text-align: center;
+            padding: 91px 0 28px;
+            font-size: 24px;
 
-            a {
-                padding: 0 0 11px;
-                font-size: 24px;
-                line-height: 222%;
-            }
         }
         
+            .btn-primary {
+                height: 68px;
+                justify-content: center;
+                margin: 0 0 60px;
+                width: 100%;
+                padding: 24px 26.7px;
+                letter-spacing: 0.6px;
+                max-width: 295px;
+                margin: 0 0 60px
+            }
+        }
 
-    }
+    
 
     .first-screen {
         .container {
@@ -80,13 +85,8 @@
         
         .btn-lg{
             white-space: nowrap;
-            
-            .icon {
-                margin: 0 -14px 0 35px;
-            }
-        }
-    } 
-}
-         
+        } 
+    }
+}        
 
 
