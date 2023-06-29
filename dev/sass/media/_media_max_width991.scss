@@ -87,6 +87,78 @@
             white-space: nowrap;
         } 
     }
+
+    .calculation__img-box {
+        display: none;
+    } 
+
+
+    .template-title {
+        margin-bottom: 54px;
+
+        h2 {
+            font-size: 24px;
+            text-align: center;
+        }
+
+        &.text-left {
+            &:after {
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+        }
+
+        &.col-lg-7 {
+            h2 {
+                &:after {
+                    position: absolute;
+                    left: 33%;
+                    top: calc(100% - 10px);
+                }
+            }
+        }
+
+    }
+
+
+    .form {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 98px 15px 15px;
+        margin-left: initial;
+
+        .container{
+            display: none;
+        }
+
+       
+
+       .btn-lg {
+            max-width: 276px;
+        }
+        .icon {
+         margin: -1px -14px 0 67px;
+      
+        }
+
+        [for="myfile"] {
+            width: 276px;
+
+        }
+
+    }
+
+    .input-row {
+        flex-direction: column;
+        width: 100%;
+        width: 605px;
+    }
+
+    .padding {
+        padding-top: 7px;
+    }
+        
 }        
 
 
+   

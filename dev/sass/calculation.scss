@@ -1,35 +1,39 @@
+
+
 .calculation {
     .container {
         position: relative; 
-    
-            &:after {
-            content: "";
-            position: absolute;
-            right: -55px;
-            bottom: -113px;
-            width: 39vw;
-            height: 98vh;
-            background: url(assets/img/calculation-decoration.png) center/contain no-repeat;
-            }
-        }
+    }
+    &__img-box {
+        position: absolute;
+        bottom: -138px;
+        right: -18px;
     }
 
+    &__img {
+        max-width: 560px;
+        width: 36vw;
+    }
+
+}
 
 
 
-.calculation-form {
+
+.form {
+    position: relative;
     max-width: 626px;
     width: 100%;
     background-color:$bg-secondary;
     border-radius: 20px;
-    padding: 50px 35px 61px;
+    padding: 50px 15px 15px;
     margin-left: 15px;
 
 }
 
 
 
-form.calculation-form .input-box {
+form .input-box {
     margin: 0 15px 20px;
     &.has-checkbox {
         margin-bottom: 8px;
@@ -46,7 +50,9 @@ form.calculation-form .input-box {
     display: none;
 }
 
-div#file-name {
+
+
+#file-name {
     margin-bottom: 12px;
 }
 
