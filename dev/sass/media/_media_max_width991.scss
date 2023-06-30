@@ -3,6 +3,7 @@
     .section {
         padding-right: 0px;
         padding-left: 0px;
+        margin-bottom: $section-margin;
     }
 
     .container {
@@ -93,32 +94,39 @@
     } 
 
 
-    .template-title {
-        margin-bottom: 54px;
-
+    .template-title{
+        margin-bottom: 35px;
+     
         h2 {
             font-size: 24px;
-            text-align: center;
+            font-weight: 700;
+            line-height: 124.5%;
         }
+        &.col-lg-7.text-left {
+            text-align: center;
+            h2{
+                &:after {
+                   display: none;
+               }
 
-        &.text-left {
+            }
+
             &:after {
                 left: 50%;
+                top: calc(100% - 2px);
                 transform: translate(-50%, 0);
+                display: block;
             }
         }
-
-        &.col-lg-7 {
-            h2 {
-                &:after {
-                    position: absolute;
-                    left: 33%;
-                    top: calc(100% - 10px);
-                }
-            }
-        }
-
     }
+
+    
+
+  
+
+
+
+    
 
 
     .form {

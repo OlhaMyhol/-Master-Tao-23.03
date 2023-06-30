@@ -17,5 +17,14 @@
         }
     } 
 
-     
+             // title type 2
+
+    &.text-left, &.col-md-7{
+        text-align: left;
+        &::after{
+            left: 0;
+            top: calc(100% - 2px);
+            transform: none;
+        }
+    }
 }
