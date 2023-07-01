@@ -2,8 +2,15 @@
     section {
         padding-right: 40px;
         padding-left: 40px;
+        &.container-fluid {
+            &:before {
+            content: "";
+            border-radius: 20px;
+            }
+        }
     }
-    .first-screen{
+
+    .first-screen {
         .container-xxl {
             border-radius: 20px;
             padding: 0 92px;
@@ -17,14 +24,20 @@
         }
     } 
 
-             // title type 2
-
-    &.text-left, &.col-md-7{
-        text-align: left;
-        &::after{
-            left: 0;
-            top: calc(100% - 2px);
-            transform: none;
+   
+    .template-title {
+      
+        /*type 2*/
+        &.text-left,
+        &.col-lg-7 {
+            text-align: left;
+    
+            &:after {
+                left: 0;
+                transform: none;
+            }
         }
+    
+       
     }
 }

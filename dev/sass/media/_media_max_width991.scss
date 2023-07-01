@@ -1,10 +1,23 @@
 @media screen and (max-width: 991px) {
-
-    .section {
-        padding-right: 0px;
-        padding-left: 0px;
-        margin-bottom: $section-margin;
+    section,
+    .first-screen {
+        margin-bottom: 56px;
     }
+
+    section {
+
+        &.container-fluid,
+        &.advantages.container-fluid {
+            padding: 55px 0 60px;
+
+            &:before {
+                left: 0;
+                right: 0;
+                border-radius: 0;
+            }
+        }
+    }
+
 
     .container {
         padding-left: 20px;
@@ -89,10 +102,88 @@
         } 
     }
 
+
+
+    .template-title{
+        margin-bottom: 35px;
+     
+        h2 {
+            font-size: 24px;
+            text-align: center;
+            // font-weight: 700;
+            // line-height: 124.5%;
+        }
+        &.col-lg-7.text-left {
+            text-align: center;
+            h2{
+                &:after {
+                   display: none;
+               }
+
+            }
+
+            &:after {
+                position: absolute;
+                left: 50%;
+                top: calc(100% - 2px);
+                transform: translate(-50%, 0);
+                margin: 0;
+            }
+        }
+    }
+
+    
+
     .calculation__img-box {
         display: none;
     } 
+    .calculation {
+        margin-bottom: 60px;
 
+        .container {
+            &:after {
+                display: none;
+            }
+        }
+    }
+
+     .form {
+        flex-direction: column;
+        border-radius: 20px;
+        padding: 50px 15px 15px;
+        margin-left: initial;
+
+         #file-name {
+            margin: 0px 0 12px;
+        }
+
+        .btn-lg {
+            max-width: 276px;
+        
+        .icon {
+         margin: -1px -14px 0 67px;
+      
+        }
+    }
+
+         [for="myfile"] {
+            width: 276px;
+
+        }
+
+    
+
+    .input-row {
+        flex-direction: column;
+        
+    }
+
+    .padding {
+        padding-top: 7px;
+        padding-bottom: 5px;
+    }
+}     
+    
 
     .template-title{
         margin-bottom: 35px;
@@ -120,53 +211,21 @@
         }
     }
 
-    
-
-  
-
-
-
-    
-
-
-    .form {
-        flex-direction: column;
-        border-radius: 20px;
-        padding: 98px 15px 15px;
-        margin-left: initial;
-
-        .container{
-            display: none;
+    .advantages {
+        .slick-slider {
+            padding-top: 10px;
         }
+        .slick-dots {
+            margin-bottom: 60px;
+        }
+    }
 
+    .advantage {
+        padding: 0 20px;
+        margin-bottom: 25px;
+    }
+}
        
-
-       .btn-lg {
-            max-width: 276px;
-        }
-        .icon {
-         margin: -1px -14px 0 67px;
-      
-        }
-
-        [for="myfile"] {
-            width: 276px;
-
-        }
-
-    }
-
-    .input-row {
-        flex-direction: column;
-        width: 100%;
-        width: 605px;
-    }
-
-    .padding {
-        padding-top: 7px;
-    }
-        
-}        
 
 
    
