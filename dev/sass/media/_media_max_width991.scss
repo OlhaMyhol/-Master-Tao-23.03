@@ -147,19 +147,23 @@
         }
     }
 
+
+
+
      .form {
         flex-direction: column;
         border-radius: 20px;
-        padding: 50px 15px 15px;
+        padding: 50px 22px 34px;
         margin-left: initial;
 
          #file-name {
-            margin: 0px 0 12px;
+            margin: 0px 23px 0px 20px
         }
 
         .btn-lg {
+
             max-width: 276px;
-        
+            margin-left: 30px;
         .icon {
          margin: -1px -14px 0 67px;
       
@@ -168,10 +172,9 @@
 
          [for="myfile"] {
             width: 276px;
+            margin: 16px 0px 0px 12px;
 
         }
-
-    
 
     .input-row {
         flex-direction: column;
@@ -185,6 +188,17 @@
 }     
     
 
+
+
+.padding-top {
+    padding-top: 9px;
+}
+
+#file-name {
+    margin-top: 5px;
+    margin-bottom: 12px;
+
+}
     .template-title{
         margin-bottom: 35px;
      
