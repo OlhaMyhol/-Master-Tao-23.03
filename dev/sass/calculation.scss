@@ -26,7 +26,7 @@
     width: 100%;
     background-color:$bg-secondary;
     border-radius: 20px;
-    padding: 47px 47px 61px;
+    padding: 47px 47px 50px;
     margin-left: 15px;
 
     input {
@@ -35,9 +35,9 @@
 
 
     .input-box {
-    margin: 0px 15px 20px;
+    margin: 0px 15px 14px;
         &.has-checkbox {
-        margin-bottom: 23px;
+        margin-bottom: 10px;
        
         label{
             display: flex;
@@ -54,9 +54,10 @@
 
 
     #file-name {
-    font-size: 15px;
-    line-height: 126%;
-    margin-left: 17px;
+        font-size: 15px;
+        line-height: 126%;
+        margin-left: 4px;
+        margin-top: -24px;
     
     }   
 
@@ -79,7 +80,7 @@
     }
 
     .input-row {
-        margin-left: -13px;
+        margin-left: 0px;
         margin-top: 3px;
     }
 }
