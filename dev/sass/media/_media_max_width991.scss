@@ -156,7 +156,7 @@
     .form {
         flex-direction: column;
         border-radius: 20px;
-        padding: 60px 14px 34px 2px;
+        padding: 52px 15px 15px;
         margin-left: initial;
         width: 100%;
         .input-box{
@@ -164,14 +164,14 @@
                 margin-bottom: 9px;   
             }
         }
-         #file-name {
-            margin-top:-21px ;
-            margin-left: 25px;
+
+        #file-name {
+            margin: 5px 0 15px 16px;
         }
 
         [for=myfile] {
             width: 275px;
-            margin-left: 26px;
+            margin-left: 15px;
             margin-top: 0px;
         }
 
@@ -188,9 +188,6 @@
 
     .input-row {
         flex-direction: column;
-        margin-left: 2px;
-        margin-top: 10px;
-        
     }
 
     .padding {

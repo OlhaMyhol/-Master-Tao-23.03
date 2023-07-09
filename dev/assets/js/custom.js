@@ -40,6 +40,38 @@ $(document).ready(function() {
       }
   });
   } 
+
+  $('.slider-template').slick({
+    dots: false,
+    infinite: true,
+
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1310,
+        settings: {
+          slidesToShow: 2,
+        }
+      },
+      {
+        breakpoint: 890,
+        settings: {
+          slidesToShow: 1,
+         
+        }
+      },
+      {
+        breakpoint: 530,
+        settings: {
+          slidesToShow: 1,
+          dots: true,
+          arrows: false,
+        }
+      },
+    ]
+  });
 });
 
 
@@ -50,3 +82,12 @@ checkbox.forEach(item => {
   item.closest('.input-column').classList.add('padding')
 })
 
+document.getElementById('myfile').onchange = function() {
+
+    //long name
+    const fileName = document.getElementById('file-name');
+    fileName.innerHTML = this.value;
+    //short name
+    // document.getElementById('file-name').innerHTML = this.files[0].name;
+
+};
