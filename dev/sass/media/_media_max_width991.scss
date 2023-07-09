@@ -248,8 +248,42 @@
         padding: 0 20px;
         margin-bottom: 25px;
     }
+
+    .template-title {
+        margin-bottom: 26px;
+        &.text-left{
+            &::after {
+                left: 50%;
+                transform: translate(-50%, 0);
+            }
+
+        }
+    }
+
+    .about-company {
+        margin: 6px auto;
+        
+    
+        p {
+            font-size: 16px;
+            line-height: 149.5%;
+            width: 335px;
+           
+        }
+    }
+    
+    .about-company_img {
+        margin: 33px auto 0;
+        max-width: 337px;
+       
+    }
+
+
+
+  
 }
        
 
 
-   
+
+
