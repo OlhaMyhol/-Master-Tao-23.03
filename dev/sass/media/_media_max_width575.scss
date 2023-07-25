@@ -21,6 +21,9 @@
             padding: 13px 5px;
         }
     }
+// faq
+
+
 
     .about-company_img {
             margin: 25px auto 0;
@@ -31,9 +34,98 @@
             }
         }
 
+        .accordion {
+            padding: 1px;
+          
+          
+            .accordion-body {
+                padding: 0px 22px 12px;
+                font-size: 14px;
+            }
+            .accordion-button.collapsed {
+                padding: 12px 22px;
+            }
+
+            .accordion-button {
+                padding: 16px 22px 10px;
+                font-size: 16px;
+                height: 64px;
+            }
+        }
+
+// content block
+
+        .template-title h3 {
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 1.25;
+        }
+
+
+        img.block-img {
+            width: 335px;
+            height: 220px;
+            margin: 0 auto;
+            display: flex;
+            }
+        
+        .description-one,
+        .description-two {
+            font-weight: 400px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 149.5%;
+        }
     
 
+        .description-one {
+            p {
+                margin: 20px auto;
+                text-align: justify;
+
+            }
+        }
+
+
+
+    .description-two {
+        margin-top: 50px;
+    }
+
+    .description-two{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 149.5%;
+            display: flex;
+            flex-direction: column-reverse;
+
+                p {
+                margin: 31px auto -7px;
+                text-align: justify;
+                letter-spacing: -0.1px;
+            }
+
+
+            .col-lg-6 {
+                &:last-child {
+                    margin-top: 0;
+                }
+            }
+        }
+
+// footer
+
+        .template-title h3 {
+            font-size: 16px;
+        }
+    
+
+    footer {
+        .section-one {
+            text-align: center;
+            margin: 0 20px;
+        }
+    }
+ 
 
 }
-    
-

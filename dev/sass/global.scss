@@ -302,7 +302,7 @@ h3 {
             transform: translate(-50%, 0);
             width: 85px;
             height: 2px;
-            background-color:#E58D35;
+            background-color:$color-secondary;
         }
 
         // type 2 text-left
@@ -358,7 +358,7 @@ h3 {
 }
 
 .input-box {
-    margin-bottom:17px ;
+    margin-bottom: 14px ;
     display: flex;
     flex-direction: column;
     label {
